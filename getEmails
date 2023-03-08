@@ -1,3 +1,4 @@
+
 function getEmails() {
   var query = "from:example@example.com"; // Specify sender's email address
   var threads = GmailApp.search(query);
