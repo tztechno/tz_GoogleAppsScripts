@@ -1,3 +1,4 @@
+
 function inputDataToGoogleSheet() {
   // ユーザーからの入力を取得
   var N = parseInt(prompt("Enter N:"));
@@ -14,3 +15,4 @@ function inputDataToGoogleSheet() {
     sheet.getRange(2, i + 1).setValue(A[i]);
   }
 }
+
